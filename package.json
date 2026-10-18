@@ -1,0 +1,15 @@
+{
+  "name": "chatgram",
+  "version": "4.0.0",
+  "description": "Chatgram - local SQLite storage with automatic 24-hour chat retention, WebSocket messaging and calls.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node boot.js"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
